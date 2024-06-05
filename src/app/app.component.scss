@@ -1,0 +1,65 @@
+@import '../styles/_variables.scss';
+
+#content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1300px;
+  height: 85vh;
+  margin: auto;
+  
+}
+.software-house-content{
+  width: 50%;
+  font-size: 1.8em;
+}
+.software-house-content p{
+  font-size: 0.9em;
+}
+.startup-revenue{
+  display: flex;
+  margin-top: 80px;
+}
+.startup-revenue-counter{
+  width: 100%;
+  font-size: 0.8em;
+  margin: 15px;
+}
+.startup-revenue-counter p {
+  font-size: 0.6em;
+}
+
+
+
+.emphasis{
+  color: $primary-color;
+}
+
+
+#shadow {
+  border-radius: 50%; 
+  position: absolute;  
+  z-index: -1; 
+}
+
+.shadow-top{
+  top: 15%; 
+  left: 30%;
+  opacity: 0.4; 
+  transform: translate(-50%, -50%); 
+  box-shadow: 0px 0px 300px 300px rgb(55, 27, 70);
+}
+
+.shadow-bottom{
+  top: 60%; 
+  left: 80%;
+  transform: translate(-50%, -50%); 
+  box-shadow: 0px 0px 300px 200px rgb(55, 27, 70);
+}
+
+.shadow-bottom-white{
+  top: 90%; 
+  left: 40%;
+  transform: translate(80%, 10%); 
+  box-shadow: 0px 0px 200px 100px rgb(88, 85, 86);
+}

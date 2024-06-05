@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles/variables';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  background-color: $background-color;
+  color: $white;
+}
+
+.emphasis{
+  color: $primary-color;
+}
