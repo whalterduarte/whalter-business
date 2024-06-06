@@ -1,5 +1,6 @@
 @import '../styles/_variables.scss';
 
+
 #content{
   display: flex;
   align-items: center;
@@ -7,7 +8,8 @@
   max-width: 1300px;
   height: 85vh;
   margin: auto;
-  
+  position: fixed;
+  overflow-y: auto;
 }
 .software-house-content{
   width: 50%;
@@ -26,7 +28,7 @@
   margin: 15px;
 }
 .startup-revenue-counter p {
-  font-size: 0.6em;
+  font-size: 0.5em;
 }
 
 
