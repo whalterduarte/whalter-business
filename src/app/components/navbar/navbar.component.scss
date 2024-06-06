@@ -4,14 +4,15 @@
   width: 100%;
   height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
+  
+  max-width: 1600px;
+  margin: 40px auto 0 auto ;
 }
 
 .logo{
   display: flex;
-  max-width: 1300px;
   align-items: center;
   
 }
